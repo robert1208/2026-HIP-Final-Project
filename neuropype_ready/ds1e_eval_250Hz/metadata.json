@@ -1,0 +1,26 @@
+{
+  "subject": "ds1e",
+  "kind": "eval",
+  "source_file": "C:\\Users\\user\\Desktop\\example\\BCICIV_1eval_1000Hz_mat\\BCICIV_eval_ds1e_1000Hz.mat",
+  "source_fs_hz": 1000,
+  "target_fs_hz": 250,
+  "unit": "microvolts",
+  "n_samples": 596134,
+  "n_channels": 59,
+  "classes": [
+    "left",
+    "right"
+  ],
+  "files": {
+    "eeg": "eeg.csv",
+    "channels": "channels.csv",
+    "markers": null,
+    "true_y": "true_y.csv"
+  },
+  "notes": [
+    "eeg.csv contains one time_sec column followed by EEG channels.",
+    "markers.csv contains cue onset events for calibration recordings.",
+    "Marker labels are original BCI labels: -1 and 1.",
+    "true_y.csv is exported only for evaluation recordings when true_labels is available."
+  ]
+}
