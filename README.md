@@ -164,19 +164,8 @@ Segmentation extracts epochs from 0.5 to 3.5 seconds after each event marker, fo
 
 ## 5. End-to-End Demo Video Script (2:00-2:30)
 
-### English Script
+Link:
 
-Hello, this is our Human Information Processing final project. Our project demonstrates a NeuroPype-based streaming EEG pipeline for visualizing topographic differences between left- and right-hand motor imagery.
-
-We used BCI Competition IV Dataset 1, focusing on subject ds1e for the main demonstration. The original EEG recordings contain 59 channels sampled at 1000 Hz. For streaming efficiency, we converted the data to 250 Hz CSV files and embedded event markers directly into the EEG CSV. The marker labels include left, right, and rest.
-
-In NeuroPype, the data are imported through the Import CSV node and streamed using Stream Data. Dejitter Timestamps corrects timing irregularities, and an FIR bandpass filter preserves the 8-30 Hz range, which includes mu and beta rhythms related to motor imagery. Artifact Removal is then used to reduce the influence of noisy channels or transient artifacts.
-
-Next, Assign Target Values maps left, right, and rest events to -1, 1, and 0. Segmentation extracts epochs from 0.5 to 3.5 seconds after each marker, focusing on a stable motor imagery interval. Select Instances separates the trials by condition.
-
-For feature extraction, we compute Welch power spectra and extract power-band features. Mean nodes average the features over time and instances, and TopoPlot Viewer displays scalp-level maps for left, right, left-rest, and right-rest conditions. Since the pipeline is streaming, a Hold Last Packet node stores the most recent rest map as the subtraction baseline.
-
-The results show different spatial bandpower patterns between left and right motor imagery, especially around sensorimotor regions.
 ## 6. Analytical Results & Interpretation
 
 ### Results Presentation
