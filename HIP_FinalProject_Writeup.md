@@ -162,9 +162,9 @@ Segmentation extracts epochs from 0.5 to 3.5 seconds after each event marker, fo
 
 ![pipeline](imgs/pipeline.png)
 
-## 5. End-to-End Demo Video Script (2:00-2:30)
+## 5. End-to-End Demo Video (2:00-2:30)
 
-### English Script
+Link: https://drive.google.com/file/d/1hMUIG18lkSs3pLXXW0nKCIuT81eSmGXF/view?usp=sharing 
 
 Hello, this is our Human Information Processing final project. Our project demonstrates a NeuroPype-based streaming EEG pipeline for visualizing topographic differences between left- and right-hand motor imagery.
 
@@ -177,6 +177,7 @@ Next, Assign Target Values maps left, right, and rest events to -1, 1, and 0. Se
 For feature extraction, we compute Welch power spectra and extract power-band features. Mean nodes average the features over time and instances, and TopoPlot Viewer displays scalp-level maps for left, right, left-rest, and right-rest conditions. Since the pipeline is streaming, a Hold Last Packet node stores the most recent rest map as the subtraction baseline.
 
 The results show different spatial bandpower patterns between left and right motor imagery, especially around sensorimotor regions.
+
 ## 6. Analytical Results & Interpretation
 
 ### Results Presentation

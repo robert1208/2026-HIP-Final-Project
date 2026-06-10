@@ -164,7 +164,7 @@ Segmentation extracts epochs from 0.5 to 3.5 seconds after each event marker, fo
 
 ## 5. End-to-End Demo Video Script (2:00-2:30)
 
-Link:
+Link: https://drive.google.com/file/d/1hMUIG18lkSs3pLXXW0nKCIuT81eSmGXF/view?usp=sharing 
 
 ## 6. Analytical Results & Interpretation
 
